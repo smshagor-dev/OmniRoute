@@ -1,0 +1,1 @@
+- **fix(resilience):** Bound the completed-request diagnostics cache by retained bytes as well as entry count, re-truncate and materialize cached request/response previews so tiny diagnostics cannot retain multi-megabyte sliced-string backing stores, and cap cached stream diagnostics (#13621).
